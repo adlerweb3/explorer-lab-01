@@ -93,3 +93,58 @@ const cardNumberPattern = {
   },
 }
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
+
+const addButton = document.getElementById("add-card")
+addButton.addEventListener("click", () => {
+  alert("Cartão adicionado")
+})
+
+/**
+ * Prevents reload page on the submit action [button click]
+ */
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault()
+})
+
+// ----------------
+const cardHolder = document.querySelector("#card-holder")
+cardHolder.addEventListener("input", () => {
+  let cardHolderInput = document.querySelector(".cc-holder .value")
+
+  cardHolderInput.innerText =
+    cardHolder.value.length === 0 ? "JOHN DOE DA SILVA" : cardHolder.value
+})
+
+// ----------------
+securityCodeMasked.on("accept", () => {
+  updateSecurityCode(securityCodeMasked.value)
+})
+
+function updateSecurityCode(code) {
+  let ccSecurity = document.querySelector(".cc-security .value")
+
+  ccSecurity.innerText = code.length === 0 ? "123" : code
+}
+
+// ----------------
+cardNumberMasked.on("accept", () => {
+  let cardType = cardNumberMasked.masked.currentMask.cardtype
+  setCardType(cardType)
+
+  updateCardNumber(cardNumberMasked.value)
+})
+
+function updateCardNumber(number) {
+  let ccNumber = document.querySelector(".cc-number")
+  ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
+}
+
+// ----------------
+expirationDateMasked.on("accept", () => {
+  updateExpirationDate(expirationDateMasked.value)
+})
+
+function updateExpirationDate(date) {
+  let ccExpiration = document.querySelector(".cc-expiration .value")
+  ccExpiration.innerText = date.length === 0 ? "02/32" : date
+}
