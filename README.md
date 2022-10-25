@@ -17,9 +17,11 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <br>
 
-<p align="center">
+<p align="center" >
   <img alt="rocketpay" src=".github/project.png" width="100%">
 </p>
+
+<br>
 
 ## 🚀 Tecnologias
 
@@ -31,18 +33,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
 
+<br>
+
 ## 💻 Projeto
 
 O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
+
+<br>
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+<br>
+
+## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ by Rocketseat 🌊 [Participe da nossa comunidade!](https://discord.gg/rocketseat)

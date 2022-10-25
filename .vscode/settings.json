@@ -1,8 +1,8 @@
 {
   // editor
   "editor.wordWrap": "on",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 30,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -14,7 +14,7 @@
   "explorer.compactFolders": false,
 
   // workbench
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
 
@@ -27,11 +27,12 @@
 
   // terminal
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.profiles.windows": {
-    "Git Bash": {
-      "source": "Git Bash"
-    }
-  },
+  // "terminal.integrated.profiles.windows": {
+  //   "Git Bash": {
+  //     "source": "Git Bash"
+  //   }
+  // },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "window.zoomLevel": 0
+  // "peacock.remoteColor": "#f9e64f"
 }
