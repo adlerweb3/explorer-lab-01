@@ -17,7 +17,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <br>
 
-<a href="https://rocketpay-sigma-ten.vercel.app/" alt="Deploy Vercel" target="_blank">
+<a href="https://rocketpay-sigma-ten.vercel.app/" target="_blank" title="Deploy Vercel">
   <p align="center" >
     <img alt="rocketpay" src=".github/project.png" width="100%">
      🔗 Acesse o projeto em prod [Vercel API Deploy]
